@@ -21,7 +21,7 @@ function injectDisclaimer(targetId) {
     </style>
     <div class="ms-trademark-disclaimer">
       <p>
-        <span class="label">❗Disclaimer:</span>
+        <span class="label">⚠️Disclaimer:</span>
         Microsoft, Azure, Copilot, Copilot Studio, Azure AI, Cosmos DB, Databricks, and Microsoft Fabric are trademarks of Microsoft Corporation.
         Tech-Insight-Group is not affiliated with or endorsed by Microsoft.
       </p>
@@ -34,4 +34,5 @@ function injectDisclaimer(targetId) {
     console.warn('Target container not found:', targetId);
   }
 }
+
 
