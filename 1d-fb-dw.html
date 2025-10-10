@@ -206,27 +206,14 @@
 
 
                             
-                        <!-- Microsoft Trademark Disclaimer -->
-                        <div class="ms-trademark-disclaimer">
-                          <p>
-                            <strong>Disclaimer:</strong> Microsoft, Azure, Copilot, Copilot Studio, Azure AI, Cosmos DB, Databricks, and Microsoft Fabric are trademarks of Microsoft Corporation. Tech-Insight-Group is not affiliated with or endorsed by Microsoft.
-                          </p>
-                        </div>
-                        
-                        <style>
-                        .ms-trademark-disclaimer {
-                          font-size: 0.85rem;
-                          color: #666;
-                          background-color: #f9f9f9;
-                          padding: 12px 18px;
-                          border-top: 1px solid #ddd;
-                          text-align: center;
-                          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                        }
-                        .ms-trademark-disclaimer strong {
-                          color: #333;
-                        }
-                        </style>
+                      <!-- Placeholder for disclaimer -->
+                      <div id="disclaimer-container"></div>
+                    
+                      <!-- Load and call the disclaimer function -->
+                      <script src="dislmr/disclaimer-ms-prd.js"></script>
+                      <script>
+                        injectDisclaimer('disclaimer-container');
+                      </script>
 
 
                             
@@ -317,6 +304,7 @@
 
 
 </html>
+
 
 
 
